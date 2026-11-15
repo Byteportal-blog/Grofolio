@@ -1,0 +1,17 @@
+# Grofolio
+
+> Grofolio (https://www.grofolio.tech/) — Ready to Grow Your Business? Discover Smarter Marketing Strategies. Explore practical digital marketing insights, expert strategies, and actionable guides to grow your online presence, reach more customers, and generate leads.
+
+## Key Information
+- Domain: https://www.grofolio.tech/
+- Focus: Practical digital marketing strategies, B2B lead generation, search intent SEO, conversion funnels, CAC/LTV performance, content distribution.
+- Standards: Real-world tested, fluff-free, conversion-focused, transparent trade-offs.
+
+## Core Articles
+- [B2B Digital Marketing Strategy: Practical Framework for Sustainable Lead Generation](https://www.grofolio.tech/b2b-digital-marketing-strategy/): Complete guide to building a predictable 3-tier inbound engine covering demand creation, commercial intent capture, and pipeline conversion without burning ad spend.
+
+## Site Structure & Verification
+- [About Grofolio](https://www.grofolio.tech/about/): Editorial mission, principles, and research methodology.
+- [Privacy Policy](https://www.grofolio.tech/privacy/): Data handling, cookies, and privacy compliance.
+- [RSS Feed](https://www.grofolio.tech/feed.xml): Machine-readable RSS 2.0 feed of all articles.
+- [XML Sitemap](https://www.grofolio.tech/sitemap.xml): Full URL directory for web indexers.

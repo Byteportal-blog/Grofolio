@@ -1,0 +1,15 @@
+# OS and file-manager noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Browser test artifacts (Playwright screenshots and console logs)
+.playwright-mcp/
+
+# Secrets — a static site needs none, this is here so a stray one never lands in a commit
+.env

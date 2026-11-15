@@ -1,0 +1,43 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": true,
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/prompt",
+      "destination": "/404/",
+      "permanent": false
+    },
+    {
+      "source": "/prompt/:path*",
+      "destination": "/404/",
+      "permanent": false
+    },
+    {
+      "source": "/aws-emulator",
+      "destination": "/b2b-digital-marketing-strategy/",
+      "permanent": true
+    },
+    {
+      "source": "/aws-emulator/:path*",
+      "destination": "/b2b-digital-marketing-strategy/",
+      "permanent": true
+    },
+    {
+      "source": "/posts/:slug*",
+      "destination": "/:slug*",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/prompt/:path*",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    }
+  ]
+}

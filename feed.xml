@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>grofolio.tech</title>
+    <link>https://www.grofolio.tech/</link>
+    <description>Explore practical digital marketing insights, expert strategies, and actionable guides to grow your online presence, reach more customers, and generate leads.</description>
+    <language>en</language>
+    <atom:link href="https://www.grofolio.tech/feed.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Nov 2026 00:00:00 +0000</lastBuildDate>
+
+    <item>
+      <title>B2B Digital Marketing Strategy: A Practical Framework for Sustainable Lead Generation</title>
+      <link>https://www.grofolio.tech/b2b-digital-marketing-strategy/</link>
+      <guid isPermaLink="true">https://www.grofolio.tech/b2b-digital-marketing-strategy/</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Most marketing budgets leak money into vanity traffic that never turns into revenue. Here is a battle-tested inbound engine that captures high-intent prospects and converts them reliably.</description>
+    </item>
+  </channel>
+</rss>

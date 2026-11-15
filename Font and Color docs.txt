@@ -1,0 +1,22 @@
+#27221b
+#fe7264
+#423117
+#ffffff
+font: karatula
+
+1. Deep Espresso
+ #27221B 
+Primary logo colour
+Represents authority, reliability, sophistication, and confidence. Use for the main G symbol and Grofolio wordmark.
+2. Coral
+#FE7264
+Signature accent colour
+Represents creativity, energy, attention, and bold marketing ideas. Use for the small triangular growth accent in the G.
+3. Rich Brown
+#423117
+Secondary brand colour
+Represents warmth, stability, experience, and grounded business thinking. Use in secondary brand graphics and supporting visual elements.
+4. White
+#FFFFFF
+Background colour
+Represents simplicity, clarity, openness, and clean communication. Use as the primary logo background and negative space.

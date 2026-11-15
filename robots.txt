@@ -1,0 +1,18 @@
+User-agent: *
+Disallow: /prompt/
+Disallow: /404/
+
+# AI Search and Assistant Crawlers (ChatGPT, Claude, Gemini, Perplexity)
+User-agent: GPTBot
+User-agent: ChatGPT-User
+User-agent: OAI-SearchBot
+User-agent: ClaudeBot
+User-agent: Claude-Web
+User-agent: PerplexityBot
+User-agent: Google-Extended
+Allow: /
+Disallow: /prompt/
+Disallow: /404/
+
+Sitemap: https://www.grofolio.tech/sitemap.xml
+Sitemap: https://www.grofolio.tech/feed.xml
