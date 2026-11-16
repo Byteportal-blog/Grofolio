@@ -4,6 +4,24 @@
 
 ---
 
+# Article: Why Google Shows Old Titles After Updating a Page
+
+- URL: https://www.grofolio.tech/google-showing-old-title-after-update/
+- Published: 2026-11-16
+- Author: Grofolio Editorial Team
+- Tags: Google Search Console, Technical SEO, Google Indexing, SEO Tips, Title Tag Optimization
+
+## Summary
+When you update a webpage's title and content, Google often continues to display an outdated title in search results. This technical SEO guide breaks down the core causes—including Google's recrawling/indexing queue and algorithmic title rewriting based on H1 tags, internal link anchor text, and external references—and provides a systematic process to resolve outdated search snippets using GSC URL Inspection and Outdated Content tools.
+
+## Key Takeaways
+1. **Recrawl and Processing Latency:** Crawling does not mean instant snippet updates. It can take several days to two weeks for Google's index tier to reflect new titles.
+2. **Algorithmic Title Link Rewriting:** Google dynamically selects titles using HTML title tags, H1 elements, prominent on-page text, and internal/external anchor text. Aligning your title and H1 reduces rewriting risk.
+3. **Discrepancy Between GSC and site: Queries:** GSC reports comprehensive database records (e.g. 160 indexed URLs), while `site:` searches show a limited subset (e.g. 55 URLs). Rely on GSC Page Indexing reports.
+4. **Removals Tool Considerations:** Temporary URL Removals hides entire pages from search. Use the "Refresh Outdated Content" tool instead when outdated snippets persist after page changes.
+
+---
+
 # Article: B2B Digital Marketing Strategy: A Practical Framework for Sustainable Lead Generation
 
 - URL: https://www.grofolio.tech/b2b-digital-marketing-strategy/

@@ -4,10 +4,11 @@
 
 ## Key Information
 - Domain: https://www.grofolio.tech/
-- Focus: Practical digital marketing strategies, B2B lead generation, search intent SEO, conversion funnels, CAC/LTV performance, content distribution.
+- Focus: Practical digital marketing strategies, Technical SEO, Google Search Console, B2B lead generation, search intent optimization, conversion funnels, CAC/LTV performance.
 - Standards: Real-world tested, fluff-free, conversion-focused, transparent trade-offs.
 
 ## Core Articles
+- [Why Google Shows Old Titles After Updating a Page](https://www.grofolio.tech/google-showing-old-title-after-update/): Complete technical SEO guide to diagnosing why Google displays outdated page titles, addressing algorithmic title rewriting, handling the 160 vs 55 indexed URL discrepancy, and using GSC URL Inspection and Removals tools effectively.
 - [B2B Digital Marketing Strategy: Practical Framework for Sustainable Lead Generation](https://www.grofolio.tech/b2b-digital-marketing-strategy/): Complete guide to building a predictable 3-tier inbound engine covering demand creation, commercial intent capture, and pipeline conversion without burning ad spend.
 
 ## Site Structure & Verification
