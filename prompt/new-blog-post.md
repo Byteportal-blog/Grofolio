@@ -60,7 +60,7 @@ Every post must be engineered for Google search intent, high organic click-throu
 
 #### 3. Featured Image & Social Cards
 - **Specs:** 1200×630 diagram or high-res visual in `assets/images/<year>/`.
-- **Open Graph & Twitter Cards:** Complete tags with canonical URL ending in `https://www.grofolio.tech/<slug>/`.
+- **Open Graph & Twitter Cards:** Complete tags with canonical URL ending in `https://www.grofolio.tech/blogs/<slug>/`.
 
 #### 4. Schema.org JSON-LD Structured Data
 Include valid `BlogPosting` schema in `<head>` for rich snippets.

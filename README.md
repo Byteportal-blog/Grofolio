@@ -30,7 +30,7 @@ assets/grofolio-logo.png    high-resolution brand logo
 assets/grofolio-logo-web.png web-optimized retina brand logo
 assets/favicon-32x32.png    site favicon
 assets/images/<year>/       post diagrams and featured images
-<post-slug>/index.html      one folder per post; the folder name is the URL
+blogs/<post-slug>/index.html one folder per post; the URL is /blogs/<post-slug>/
 vercel.json                 clean URLs and redirects
 ```
 
@@ -53,7 +53,7 @@ Light is the default. One inline line in each page's `<head>` applies a saved da
 
 ## Publish a Post
 
-1. Copy `prompt/template.html` into a new slug folder: `mkdir new-strategy && cp prompt/template.html new-strategy/index.html`.
+1. Copy `prompt/template.html` into a new slug folder: `mkdir -p blogs/new-strategy && cp prompt/template.html blogs/new-strategy/index.html`.
 2. Update `<title>`, `meta[name=description]`, `link[rel=canonical]`, Open Graph, and Twitter metadata.
 3. Put featured images in `assets/images/2026/`.
 4. Add the entry to `<ol id="post-feed">` in `index.html`.

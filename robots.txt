@@ -15,4 +15,3 @@ Disallow: /prompt/
 Disallow: /404/
 
 Sitemap: https://www.grofolio.tech/sitemap.xml
-Sitemap: https://www.grofolio.tech/feed.xml

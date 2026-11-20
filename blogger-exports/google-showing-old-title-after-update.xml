@@ -1,0 +1,257 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/' xmlns:georss='http://www.georss.org/georss' xmlns:gd='http://schemas.google.com/g/2005' xmlns:thr='http://purl.org/syndication/thread/1.0'>
+  <id>tag:blogger.com,1999:blog-8940675546180095</id>
+  <updated>2026-11-20T10:43:18.000+00:00</updated>
+  <title type='text'>grofolio.tech Blogger Export</title>
+  <link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/8940675546180095/archive'/>
+  <author>
+    <name>Grofolio</name>
+    <uri>https://www.grofolio.tech/</uri>
+  </author>
+  <generator version='7.00' uri='https://www.blogger.com'>Blogger</generator>
+<entry xmlns='http://www.w3.org/2005/Atom'>
+  <id>tag:blogger.com,1999:blog-8940675546180095.post-1794787200</id>
+  <published>2026-11-16T08:00:00.000+00:00</published>
+  <updated>2026-11-20T10:43:18.000+00:00</updated>
+  <title type='text'>Why Google Shows Old Titles After Updating a Page</title>
+  <content type='html'>&lt;!-- Quick Summary Box --&gt;
+        &lt;div id=&quot;quick-answer&quot; style=&quot;background:#fafaf9; border-left:4px solid #fe7264; border-radius:8px; padding:18px; margin:24px 0; font-family:sans-serif;&quot;&gt;
+          &lt;p class=&quot;font-medium text-stone-900 dark:text-white&quot;&gt;
+            &lt;strong&gt;The short explanation:&lt;/strong&gt; Google showing an old title usually boils down to two factors: either Google hasn&apos;t fully re-crawled and re-rendered the page in its indexing tier, or its algorithmic snippet generator has rewritten your title link using your H1, internal anchor text, or historical signals.
+          &lt;/p&gt;
+        &lt;/div&gt;
+
+        &lt;p&gt;
+          Even more confusing, Google Search Console might report 160 indexed URLs, while a &lt;code&gt;site:&lt;/code&gt; search displays only 55 URLs. Some of those results may also contain outdated titles or old snippet snippets.
+        &lt;/p&gt;
+        &lt;p&gt;
+          So, what is actually happening behind the scenes, and how can you systematically resolve it?
+        &lt;/p&gt;
+
+        &lt;h2&gt;Why Google still shows your old title&lt;/h2&gt;
+        
+        &lt;h3&gt;1. Google has not fully processed your updated page&lt;/h3&gt;
+        &lt;p&gt;
+          When you update a webpage, Google needs to recrawl, re-render, and re-index it before reflecting changes in search results.
+        &lt;/p&gt;
+        &lt;p&gt;
+          Even if Google has crawled your page recently, updating the serving index and title link cache can take anywhere from a few days to a couple of weeks depending on your site&apos;s crawl budget and authority.
+        &lt;/p&gt;
+
+        &lt;h3&gt;2. Google automatically rewrites title links&lt;/h3&gt;
+        &lt;p&gt;
+          Google does not always display the exact HTML &lt;code&gt;&amp;lt;title&amp;gt;&lt;/code&gt; you specify. The search engine dynamically generates title links based on several page signals:
+        &lt;/p&gt;
+        &lt;ul&gt;
+          &lt;li&gt;The HTML &lt;code&gt;&amp;lt;title&amp;gt;&lt;/code&gt; tag&lt;/li&gt;
+          &lt;li&gt;The main &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; and secondary heading elements&lt;/li&gt;
+          &lt;li&gt;Open Graph titles (&lt;code&gt;og:title&lt;/code&gt;)&lt;/li&gt;
+          &lt;li&gt;Prominent visual text on the page&lt;/li&gt;
+          &lt;li&gt;Internal link anchor text pointing to the page&lt;/li&gt;
+          &lt;li&gt;External backlinks and citations&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;p&gt;
+          If Google&apos;s algorithms determine that another element or anchor phrase better represents the page for a user&apos;s search query, it generates an alternate title link automatically.
+        &lt;/p&gt;
+
+        &lt;h2&gt;How to fix Google showing an old title&lt;/h2&gt;
+
+        &lt;h3&gt;Step 1: Check your HTML title tag&lt;/h3&gt;
+        &lt;p&gt;
+          Inspect your live page source and verify that the updated title is present in the rendered HTML:
+        &lt;/p&gt;
+
+        &lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;title&amp;gt;Why Google Shows Old Titles After Updating a Page&amp;lt;/title&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+
+        &lt;p&gt;
+          Check for duplicate title tags, cached SEO plugin configurations, or client-side JavaScript issues that might overwrite the title after initial load.
+        &lt;/p&gt;
+
+        &lt;h3&gt;Step 2: Align your title tag and H1&lt;/h3&gt;
+        &lt;p&gt;
+          Make sure your HTML title, visible H1 heading, and Open Graph metadata communicate the exact same topic:
+        &lt;/p&gt;
+        &lt;ul&gt;
+          &lt;li&gt;&lt;strong&gt;Title tag:&lt;/strong&gt; Why Google Shows Old Titles After Updating a Page&lt;/li&gt;
+          &lt;li&gt;&lt;strong&gt;H1 heading:&lt;/strong&gt; Why Google Shows Old Titles After Updating a Page&lt;/li&gt;
+          &lt;li&gt;&lt;strong&gt;OG title:&lt;/strong&gt; Why Google Shows Old Titles After Updating a Page&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;p&gt;
+          They do not need to be 100% identical, but strong semantic alignment removes ambiguity and stops Google from substituting an alternate heading.
+        &lt;/p&gt;
+
+        &lt;h3&gt;Step 3: Update internal links&lt;/h3&gt;
+        &lt;p&gt;
+          Check your homepage, category menus, and related blog posts. If internal links still use the old title as their anchor text, Google will continue associating the page with that legacy phrase. Update your anchor text site-wide to reflect the new direction.
+        &lt;/p&gt;
+
+        &lt;h3&gt;Step 4: Request indexing through Google Search Console&lt;/h3&gt;
+        &lt;figure class=&quot;my-6&quot;&gt;
+          &lt;img 
+            src=&quot;https://www.grofolio.tech/assets/images/2026/gsc-url-inspection.png&quot; 
+            alt=&quot;Google Search Console URL Inspection interface showing indexed page status and Test Live URL button&quot; 
+            width=&quot;800&quot; 
+            height=&quot;514&quot; 
+            class=&quot;rounded-lg border border-stone-200 dark:border-stone-800 shadow-sm&quot;
+            loading=&quot;lazy&quot;
+          &gt;
+          &lt;figcaption class=&quot;mt-2 text-center text-xs text-stone-500&quot;&gt;
+            Figure 2: Google Search Console URL Inspection tool showing live crawl verification and indexing request options.
+          &lt;/figcaption&gt;
+        &lt;/figure&gt;
+
+        &lt;p&gt;
+          If you have updated the page, encourage Googlebot to recrawl it:
+        &lt;/p&gt;
+        &lt;ol&gt;
+          &lt;li&gt;Open &lt;strong&gt;Google Search Console&lt;/strong&gt;.&lt;/li&gt;
+          &lt;li&gt;Select the &lt;strong&gt;URL Inspection&lt;/strong&gt; tool in the top search bar.&lt;/li&gt;
+          &lt;li&gt;Enter your updated blog URL.&lt;/li&gt;
+          &lt;li&gt;Review the indexed version, then click &lt;strong&gt;Test Live URL&lt;/strong&gt;.&lt;/li&gt;
+          &lt;li&gt;If the live test confirms the updated content is accessible, click &lt;strong&gt;Request Indexing&lt;/strong&gt;.&lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;p&gt;
+          This places your URL in Google&apos;s high-priority crawl queue. While it does not guarantee an immediate snippet refresh, it expedites processing significantly.
+        &lt;/p&gt;
+
+        &lt;h3&gt;Step 5: Verify the crawled content&lt;/h3&gt;
+        &lt;p&gt;
+          After requesting indexing, check whether Google&apos;s crawled version reflects your updated content.
+        &lt;/p&gt;
+        &lt;p&gt;
+          If Google sees the updated title in the crawled HTML but continues showing an older or rewritten phrase in search results, investigate &lt;strong&gt;algorithmic title rewriting&lt;/strong&gt; rather than repeatedly requesting indexing.
+        &lt;/p&gt;
+
+        &lt;h2&gt;What about 160 indexed URLs but only 55 results in a site search?&lt;/h2&gt;
+        &lt;p&gt;
+          This is another frequent source of confusion for webmasters.
+        &lt;/p&gt;
+        &lt;p&gt;
+          Google Search Console reports total indexed URLs based on its complete database records. A &lt;code&gt;site:yourdomain.com&lt;/code&gt; query, by contrast, is designed as an exploratory query—not an exhaustive audit tool. Google truncates and omits duplicate or low-scoring query results from the &lt;code&gt;site:&lt;/code&gt; search display.
+        &lt;/p&gt;
+        &lt;p&gt;
+          For example:
+        &lt;/p&gt;
+        &lt;ul&gt;
+          &lt;li&gt;&lt;strong&gt;Search Console:&lt;/strong&gt; 160 indexed URLs&lt;/li&gt;
+          &lt;li&gt;&lt;strong&gt;Google site: search:&lt;/strong&gt; 55 displayed URLs&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;p&gt;
+          This disparity does &lt;em&gt;not&lt;/em&gt; mean 105 pages have been dropped or de-indexed. Always rely on Google Search Console&apos;s &lt;strong&gt;Page Indexing Report&lt;/strong&gt; as your source of truth.
+        &lt;/p&gt;
+
+        &lt;h2&gt;Google Search Console Removals&lt;/h2&gt;
+        &lt;p&gt;
+          If your page has been updated but Google continues displaying outdated information, you can consider Google Search Console’s Removals tool as a last resort.
+        &lt;/p&gt;
+
+        &lt;figure class=&quot;my-6&quot;&gt;
+          &lt;img 
+            src=&quot;https://www.grofolio.tech/assets/images/2026/gsc-removals-tool.png&quot; 
+            alt=&quot;Google Search Console Removals interface showing Temporary Removals and Outdated Content tabs&quot; 
+            width=&quot;1600&quot; 
+            height=&quot;720&quot; 
+            class=&quot;rounded-lg border border-stone-200 dark:border-stone-800 shadow-sm&quot;
+            loading=&quot;lazy&quot;
+          &gt;
+          &lt;figcaption class=&quot;mt-2 text-center text-xs text-stone-500&quot;&gt;
+            Figure 3: Google Search Console Removals interface showing Temporary Removals and Outdated Content tabs.
+          &lt;/figcaption&gt;
+        &lt;/figure&gt;
+
+        &lt;p&gt;
+          Navigate to: &lt;strong&gt;Google Search Console &amp;rarr; Indexing &amp;rarr; Removals&lt;/strong&gt;.
+        &lt;/p&gt;
+        &lt;p&gt;
+          There are two relevant options:
+        &lt;/p&gt;
+
+        &lt;h3&gt;1. Temporary Removal&lt;/h3&gt;
+        &lt;p&gt;&lt;strong&gt;Purpose:&lt;/strong&gt; Temporarily hide a webpage from Google Search results.&lt;/p&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Hides the URL from Google Search for approximately 6 months.&lt;/li&gt;
+          &lt;li&gt;Does not permanently delete the page or remove it from your website.&lt;/li&gt;
+          &lt;li&gt;Can be used when you urgently need a page hidden from search results.&lt;/li&gt;
+        &lt;/ul&gt;
+
+        &lt;h3&gt;2. Clear Snippet (Refresh Outdated Content)&lt;/h3&gt;
+        &lt;p&gt;&lt;strong&gt;Purpose:&lt;/strong&gt; Refresh outdated information appearing in Google’s search results.&lt;/p&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Requests Google to refresh outdated search-result information.&lt;/li&gt;
+          &lt;li&gt;Useful when the live webpage has already been updated or outdated content has been removed.&lt;/li&gt;
+          &lt;li&gt;Does not hide the entire webpage from Google Search.&lt;/li&gt;
+          &lt;li&gt;Does not guarantee that Google displays your exact new title.&lt;/li&gt;
+        &lt;/ul&gt;
+
+        &lt;h2&gt;Final Option: Refresh Outdated Content&lt;/h2&gt;
+        &lt;p&gt;
+          If outdated information is no longer present on the live webpage but continues appearing in Google Search, you can use Google’s Refresh Outdated Content tool.
+        &lt;/p&gt;
+
+        &lt;figure class=&quot;my-6&quot;&gt;
+          &lt;img 
+            src=&quot;https://www.grofolio.tech/assets/images/2026/gsc-refresh-outdated-content.png&quot; 
+            alt=&quot;Google&apos;s outdated content removal process&quot; 
+            width=&quot;1255&quot; 
+            height=&quot;860&quot; 
+            class=&quot;rounded-lg border border-stone-200 dark:border-stone-800 shadow-sm&quot;
+            loading=&quot;lazy&quot;
+          &gt;
+          &lt;figcaption class=&quot;mt-2 text-center text-xs text-stone-500&quot;&gt;
+            Figure 4: Google’s outdated content removal process. Official tool: &lt;a href=&quot;https://search.google.com/search-console/remove-outdated-content&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Refresh Outdated Content Tool&lt;/a&gt;.
+          &lt;/figcaption&gt;
+        &lt;/figure&gt;
+
+        &lt;p&gt;
+          This tool is useful when outdated information remains visible after the live page has changed.
+        &lt;/p&gt;
+
+        &lt;div class=&quot;rounded-lg border-l-4 border-[#fe7264] bg-stone-50 p-4 dark:bg-stone-900/60 dark:border-[#fe7264] my-4&quot;&gt;
+          &lt;p class=&quot;text-sm text-stone-800 dark:text-stone-200&quot;&gt;
+            &lt;strong&gt;Important:&lt;/strong&gt; Removals is not a guaranteed method for forcing Google to display a new title. It does not permanently fix title rewriting or guarantee an immediate refreshed snippet. For significant changes, Google recommends recrawling the page and allowing its systems to process the update.
+          &lt;/p&gt;
+        &lt;/div&gt;
+
+        &lt;h2&gt;Conclusion&lt;/h2&gt;
+        &lt;p&gt;
+          Google displaying an old title does not automatically mean your website has an indexing problem.
+        &lt;/p&gt;
+        &lt;p&gt;
+          The most effective solution is to verify your HTML title, align your H1 and Open Graph title, update inconsistent internal links, request indexing, and allow Google time to process the changes.
+        &lt;/p&gt;
+        &lt;p&gt;
+          If outdated information continues appearing in search results, investigate the cause before using the Removals tool.
+        &lt;/p&gt;
+        &lt;p&gt;
+          Remember: Google controls the title links displayed in search results. Your job is to provide consistent, accurate signals that help Google understand your updated content.
+        &lt;/p&gt;
+
+        &lt;h2&gt;Official references&lt;/h2&gt;
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;https://developers.google.com/search/docs/appearance/title-link&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Google Search Central: Influencing Title Links in Search&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://support.google.com/webmasters/answer/9012289&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Google Search Console: URL Inspection Tool&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://support.google.com/webmasters/answer/9689846&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Google Search Console: Removals Tool Documentation&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://search.google.com/search-console/remove-outdated-content&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Google: Refresh Outdated Content Tool&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+
+&lt;div style=&quot;margin-top: 40px; padding: 18px 22px; background: #fafaf9; border-left: 4px solid #fe7264; border-radius: 6px; font-family: sans-serif; font-size: 15px; color: #44403c;&quot;&gt;
+    &lt;strong&gt;Original Article:&lt;/strong&gt; This guide was originally published on 
+    &lt;a href=&quot;https://www.grofolio.tech/blogs/google-showing-old-title-after-update/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; style=&quot;color: #fe7264; font-weight: 600; text-decoration: underline;&quot;&gt;
+        grofolio.tech — Why Google Shows Old Titles After Updating a Page
+    &lt;/a&gt;.
+&lt;/div&gt;
+</content>
+  <link rel='replies' type='application/atom+xml' href='https://www.blogger.com/feeds/8940675546180095/posts/default' title='Post Comments'/>
+  <category scheme="http://www.blogger.com/atom/ns#" term="Google Search Console" />
+  <category scheme="http://www.blogger.com/atom/ns#" term="Technical SEO" />
+  <category scheme="http://www.blogger.com/atom/ns#" term="Google Indexing" />
+  <category scheme="http://www.blogger.com/atom/ns#" term="Title Tag Optimization" />
+  <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#post"/>
+  <author>
+    <name>Grofolio Editorial Team</name>
+    <uri>https://www.grofolio.tech/about/</uri>
+    <email>noreply@blogger.com</email>
+  </author>
+</entry>
+
+</feed>

@@ -14,22 +14,92 @@
       "permanent": false
     },
     {
-      "source": "/aws-emulator",
-      "destination": "/b2b-digital-marketing-strategy/",
-      "permanent": true
+      "source": "/b2b-digital-marketing-strategy",
+      "destination": "/blogs/b2b-digital-marketing-strategy/",
+      "statusCode": 301
     },
     {
-      "source": "/aws-emulator/:path*",
-      "destination": "/b2b-digital-marketing-strategy/",
-      "permanent": true
+      "source": "/b2b-digital-marketing-strategy/",
+      "destination": "/blogs/b2b-digital-marketing-strategy/",
+      "statusCode": 301
     },
     {
-      "source": "/posts/:slug*",
-      "destination": "/:slug*",
-      "permanent": true
+      "source": "/b2b-digital-marketing-strategy/:path+",
+      "destination": "/blogs/b2b-digital-marketing-strategy/:path+",
+      "statusCode": 301
+    },
+    {
+      "source": "/coca-cola-marketing-strategy",
+      "destination": "/blogs/coca-cola-marketing-strategy/",
+      "statusCode": 301
+    },
+    {
+      "source": "/coca-cola-marketing-strategy/",
+      "destination": "/blogs/coca-cola-marketing-strategy/",
+      "statusCode": 301
+    },
+    {
+      "source": "/coca-cola-marketing-strategy/:path+",
+      "destination": "/blogs/coca-cola-marketing-strategy/:path+",
+      "statusCode": 301
+    },
+    {
+      "source": "/google-showing-old-title-after-update",
+      "destination": "/blogs/google-showing-old-title-after-update/",
+      "statusCode": 301
+    },
+    {
+      "source": "/google-showing-old-title-after-update/",
+      "destination": "/blogs/google-showing-old-title-after-update/",
+      "statusCode": 301
+    },
+    {
+      "source": "/google-showing-old-title-after-update/:path+",
+      "destination": "/blogs/google-showing-old-title-after-update/:path+",
+      "statusCode": 301
+    },
+    {
+      "source": "/posts",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/posts/:slug+",
+      "destination": "/blogs/:slug*/",
+      "statusCode": 301
     }
   ],
   "headers": [
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=()"
+        }
+      ]
+    },
     {
       "source": "/prompt/:path*",
       "headers": [
