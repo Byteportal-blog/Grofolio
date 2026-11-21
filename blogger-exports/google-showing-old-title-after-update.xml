@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <feed xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/' xmlns:georss='http://www.georss.org/georss' xmlns:gd='http://schemas.google.com/g/2005' xmlns:thr='http://purl.org/syndication/thread/1.0'>
   <id>tag:blogger.com,1999:blog-8940675546180095</id>
-  <updated>2026-11-20T10:43:18.000+00:00</updated>
+  <updated>2026-11-21T15:23:06.000+00:00</updated>
   <title type='text'>grofolio.tech Blogger Export</title>
   <link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/8940675546180095/archive'/>
   <author>
@@ -12,9 +12,26 @@
 <entry xmlns='http://www.w3.org/2005/Atom'>
   <id>tag:blogger.com,1999:blog-8940675546180095.post-1794787200</id>
   <published>2026-11-16T08:00:00.000+00:00</published>
-  <updated>2026-11-20T10:43:18.000+00:00</updated>
+  <updated>2026-11-21T15:23:06.000+00:00</updated>
   <title type='text'>Why Google Shows Old Titles After Updating a Page</title>
-  <content type='html'>&lt;!-- Quick Summary Box --&gt;
+  <content type='html'>&lt;!-- Featured Image Diagram --&gt;
+      &lt;figure style=&quot;margin:28px 0; text-align:center;&quot;&gt;
+        &lt;img 
+          src=&quot;https://www.grofolio.tech/assets/images/2026/google-showing-old-title.png&quot; 
+          alt=&quot;Why Google Shows Old Titles After Updating a Page - Diagnostic Framework&quot; 
+          width=&quot;1200&quot; 
+          height=&quot;630&quot; 
+          class=&quot;w-full rounded-lg border border-stone-200 dark:border-stone-800 shadow-sm&quot; style=&quot;max-width:100%; height:auto; border-radius:8px; border:1px solid #e7e5e4;&quot;
+          loading=&quot;eager&quot;
+        &gt;
+        &lt;figcaption style=&quot;margin-top:8px; font-size:13px; color:#78716c; text-align:center; font-family:sans-serif;&quot;&gt;
+          Figure 1: The three primary drivers of outdated search snippets: recrawl delay, algorithmic title rewriting, and index cache desynchronization.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
+
+
+        
+        &lt;!-- Quick Summary Box --&gt;
         &lt;div id=&quot;quick-answer&quot; style=&quot;background:#fafaf9; border-left:4px solid #fe7264; border-radius:8px; padding:18px; margin:24px 0; font-family:sans-serif;&quot;&gt;
           &lt;p class=&quot;font-medium text-stone-900 dark:text-white&quot;&gt;
             &lt;strong&gt;The short explanation:&lt;/strong&gt; Google showing an old title usually boils down to two factors: either Google hasn&apos;t fully re-crawled and re-rendered the page in its indexing tier, or its algorithmic snippet generator has rewritten your title link using your H1, internal anchor text, or historical signals.
@@ -86,16 +103,16 @@
         &lt;/p&gt;
 
         &lt;h3&gt;Step 4: Request indexing through Google Search Console&lt;/h3&gt;
-        &lt;figure class=&quot;my-6&quot;&gt;
+        &lt;figure style=&quot;margin:28px 0; text-align:center;&quot;&gt;
           &lt;img 
             src=&quot;https://www.grofolio.tech/assets/images/2026/gsc-url-inspection.png&quot; 
             alt=&quot;Google Search Console URL Inspection interface showing indexed page status and Test Live URL button&quot; 
             width=&quot;800&quot; 
             height=&quot;514&quot; 
-            class=&quot;rounded-lg border border-stone-200 dark:border-stone-800 shadow-sm&quot;
+            class=&quot;rounded-lg border border-stone-200 dark:border-stone-800 shadow-sm&quot; style=&quot;max-width:100%; height:auto; border-radius:8px; border:1px solid #e7e5e4;&quot;
             loading=&quot;lazy&quot;
           &gt;
-          &lt;figcaption class=&quot;mt-2 text-center text-xs text-stone-500&quot;&gt;
+          &lt;figcaption style=&quot;margin-top:8px; font-size:13px; color:#78716c; text-align:center; font-family:sans-serif;&quot;&gt;
             Figure 2: Google Search Console URL Inspection tool showing live crawl verification and indexing request options.
           &lt;/figcaption&gt;
         &lt;/figure&gt;
@@ -145,16 +162,16 @@
           If your page has been updated but Google continues displaying outdated information, you can consider Google Search Console’s Removals tool as a last resort.
         &lt;/p&gt;
 
-        &lt;figure class=&quot;my-6&quot;&gt;
+        &lt;figure style=&quot;margin:28px 0; text-align:center;&quot;&gt;
           &lt;img 
             src=&quot;https://www.grofolio.tech/assets/images/2026/gsc-removals-tool.png&quot; 
             alt=&quot;Google Search Console Removals interface showing Temporary Removals and Outdated Content tabs&quot; 
             width=&quot;1600&quot; 
             height=&quot;720&quot; 
-            class=&quot;rounded-lg border border-stone-200 dark:border-stone-800 shadow-sm&quot;
+            class=&quot;rounded-lg border border-stone-200 dark:border-stone-800 shadow-sm&quot; style=&quot;max-width:100%; height:auto; border-radius:8px; border:1px solid #e7e5e4;&quot;
             loading=&quot;lazy&quot;
           &gt;
-          &lt;figcaption class=&quot;mt-2 text-center text-xs text-stone-500&quot;&gt;
+          &lt;figcaption style=&quot;margin-top:8px; font-size:13px; color:#78716c; text-align:center; font-family:sans-serif;&quot;&gt;
             Figure 3: Google Search Console Removals interface showing Temporary Removals and Outdated Content tabs.
           &lt;/figcaption&gt;
         &lt;/figure&gt;
@@ -188,16 +205,16 @@
           If outdated information is no longer present on the live webpage but continues appearing in Google Search, you can use Google’s Refresh Outdated Content tool.
         &lt;/p&gt;
 
-        &lt;figure class=&quot;my-6&quot;&gt;
+        &lt;figure style=&quot;margin:28px 0; text-align:center;&quot;&gt;
           &lt;img 
             src=&quot;https://www.grofolio.tech/assets/images/2026/gsc-refresh-outdated-content.png&quot; 
             alt=&quot;Google&apos;s outdated content removal process&quot; 
             width=&quot;1255&quot; 
             height=&quot;860&quot; 
-            class=&quot;rounded-lg border border-stone-200 dark:border-stone-800 shadow-sm&quot;
+            class=&quot;rounded-lg border border-stone-200 dark:border-stone-800 shadow-sm&quot; style=&quot;max-width:100%; height:auto; border-radius:8px; border:1px solid #e7e5e4;&quot;
             loading=&quot;lazy&quot;
           &gt;
-          &lt;figcaption class=&quot;mt-2 text-center text-xs text-stone-500&quot;&gt;
+          &lt;figcaption style=&quot;margin-top:8px; font-size:13px; color:#78716c; text-align:center; font-family:sans-serif;&quot;&gt;
             Figure 4: Google’s outdated content removal process. Official tool: &lt;a href=&quot;https://search.google.com/search-console/remove-outdated-content&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Refresh Outdated Content Tool&lt;/a&gt;.
           &lt;/figcaption&gt;
         &lt;/figure&gt;

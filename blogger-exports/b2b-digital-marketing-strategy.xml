@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <feed xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/' xmlns:georss='http://www.georss.org/georss' xmlns:gd='http://schemas.google.com/g/2005' xmlns:thr='http://purl.org/syndication/thread/1.0'>
   <id>tag:blogger.com,1999:blog-8940675546180095</id>
-  <updated>2026-11-20T10:43:18.000+00:00</updated>
+  <updated>2026-11-21T15:23:06.000+00:00</updated>
   <title type='text'>grofolio.tech Blogger Export</title>
   <link rel='self' type='application/atom+xml' href='https://www.blogger.com/feeds/8940675546180095/archive'/>
   <author>
@@ -12,9 +12,26 @@
 <entry xmlns='http://www.w3.org/2005/Atom'>
   <id>tag:blogger.com,1999:blog-8940675546180095.post-1794700800</id>
   <published>2026-11-15T08:00:00.000+00:00</published>
-  <updated>2026-11-20T10:43:18.000+00:00</updated>
+  <updated>2026-11-21T15:23:06.000+00:00</updated>
   <title type='text'>B2B Digital Marketing Strategy: Practical Framework for Sustainable Lead Generation</title>
-  <content type='html'>&lt;!-- Speakable &amp; Fast Hook --&gt;
+  <content type='html'>&lt;!-- Featured Image Diagram --&gt;
+      &lt;figure style=&quot;margin:28px 0; text-align:center;&quot;&gt;
+        &lt;img 
+          src=&quot;https://www.grofolio.tech/assets/images/2026/marketing-strategy-framework.png&quot; 
+          alt=&quot;Grofolio 3-Tier Lead Engine Framework Diagram showing Demand Creation, Intent Capture, and Pipeline Conversion&quot; 
+          width=&quot;1200&quot; 
+          height=&quot;630&quot; 
+          class=&quot;w-full rounded-lg border border-stone-200 dark:border-stone-800 shadow-sm&quot; style=&quot;max-width:100%; height:auto; border-radius:8px; border:1px solid #e7e5e4;&quot;
+          loading=&quot;eager&quot;
+        &gt;
+        &lt;figcaption style=&quot;margin-top:8px; font-size:13px; color:#78716c; text-align:center; font-family:sans-serif;&quot;&gt;
+          Figure 1: The 3-tier sustainable inbound architecture: create demand, capture commercial intent, and convert leads into sales pipeline.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
+
+
+        
+        &lt;!-- Speakable &amp; Fast Hook --&gt;
         &lt;div id=&quot;quick-answer&quot; style=&quot;background:#fafaf9; border-left:4px solid #fe7264; border-radius:8px; padding:18px; margin:24px 0; font-family:sans-serif;&quot;&gt;
           &lt;p class=&quot;font-medium text-stone-900 dark:text-white&quot;&gt;
             &lt;strong&gt;The core friction:&lt;/strong&gt; Most marketing teams purchase traffic before understanding buying intent. When ad spend pauses, pipeline dries up immediately. A sustainable strategy builds compounding assets—organic search intent, problem-solving resources, and high-trust nurture loops—that deliver qualified leads month after month.

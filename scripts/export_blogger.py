@@ -18,6 +18,7 @@ Usage:
 import os
 import sys
 import re
+import html as html_lib
 import argparse
 from datetime import datetime, timezone
 
@@ -37,7 +38,7 @@ def parse_and_convert(slug):
 
     # 1. Title
     title_m = re.search(r'<title>(.*?)</title>', html, re.I)
-    title = title_m.group(1).strip() if title_m else slug
+    title = html_lib.unescape(title_m.group(1).strip()) if title_m else slug
 
     # 2. Tags
     tags = re.findall(r'<meta property="article:tag" content="(.*?)">', html, re.I)
@@ -54,6 +55,13 @@ def parse_and_convert(slug):
         raise ValueError(f"Could not extract prose content from {index_file}")
     
     raw_body = prose_m.group(1)
+
+    # Check for featured hero figure above prose and include at top of Blogger post
+    hero_m = re.search(r'(<!-- Featured Image[^>]*-->\s*<figure[^>]*>.*?</figure>)', html, re.S | re.I)
+    if not hero_m:
+        hero_m = re.search(r'(<figure[^>]*class="mt-6[^"]*"[^>]*>.*?</figure>)', html, re.S | re.I)
+    if hero_m:
+        raw_body = hero_m.group(1) + "\n\n" + raw_body
 
     # 4. Convert relative image paths to live Grofolio CDN URLs
     def replace_img_src(match):
@@ -99,6 +107,11 @@ def parse_and_convert(slug):
     clean_body = re.sub(r'<table[^>]*>', '<table style="width:100%; border-collapse:collapse; margin:24px 0; font-family:sans-serif; font-size:14px; border:1px solid #e7e5e4;">', clean_body)
     clean_body = re.sub(r'<th\s+class="([^"]*)"', r'<th style="border:1px solid #e7e5e4; padding:12px 14px; background:#f5f5f4; text-align:left;" class="\1"', clean_body)
     clean_body = re.sub(r'<td\s+class="([^"]*)"', r'<td style="border:1px solid #e7e5e4; padding:12px 14px; text-align:left;" class="\1"', clean_body)
+
+    # 9. Style figures and captions for Blogger
+    clean_body = re.sub(r'<figure[^>]*>', '<figure style="margin:28px 0; text-align:center;">', clean_body)
+    clean_body = re.sub(r'<figcaption[^>]*>', '<figcaption style="margin-top:8px; font-size:13px; color:#78716c; text-align:center; font-family:sans-serif;">', clean_body)
+    clean_body = re.sub(r'(<img\s+[^>]*class="[^"]*)"', r'\1" style="max-width:100%; height:auto; border-radius:8px; border:1px solid #e7e5e4;"', clean_body)
 
     # 9. Canonical attribution callout
     attribution = f"""
