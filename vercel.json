@@ -59,6 +59,21 @@
       "statusCode": 301
     },
     {
+      "source": "/chatgpt-business-hub-the-end-of-google-my-business",
+      "destination": "/blogs/chatgpt-business-hub-the-end-of-google-my-business/",
+      "statusCode": 301
+    },
+    {
+      "source": "/chatgpt-business-hub-the-end-of-google-my-business/",
+      "destination": "/blogs/chatgpt-business-hub-the-end-of-google-my-business/",
+      "statusCode": 301
+    },
+    {
+      "source": "/chatgpt-business-hub-the-end-of-google-my-business/:path+",
+      "destination": "/blogs/chatgpt-business-hub-the-end-of-google-my-business/:path+",
+      "statusCode": 301
+    },
+    {
       "source": "/posts",
       "destination": "/",
       "statusCode": 301
