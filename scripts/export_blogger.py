@@ -40,14 +40,18 @@ def parse_and_convert(slug):
     title_m = re.search(r'<title>(.*?)</title>', html, re.I)
     title = html_lib.unescape(title_m.group(1).strip()) if title_m else slug
 
-    # 2. Tags
+    # 2. Description
+    desc_m = re.search(r'<meta name="description" content="(.*?)">', html, re.I)
+    description = html_lib.unescape(desc_m.group(1).strip()) if desc_m else ""
+
+    # 3. Tags
     tags = re.findall(r'<meta property="article:tag" content="(.*?)">', html, re.I)
     if not tags:
         tags = ["Marketing Strategy", "Digital Marketing", "Business Growth"]
 
     canonical_url = f"https://www.grofolio.tech/blogs/{slug}/"
 
-    # 3. Extract prose body
+    # 4. Extract prose body
     prose_m = re.search(r'<div class="prose[^"]*">(.*?)</div>\s*</article>', html, re.S | re.I)
     if not prose_m:
         prose_m = re.search(r'<div class="prose[^"]*">(.*?)</div>\s*<footer', html, re.S | re.I)
@@ -141,6 +145,7 @@ def parse_and_convert(slug):
 
     escaped_body = escape_xml(clean_body)
     escaped_title = escape_xml(title)
+    escaped_description = escape_xml(description)
 
     categories_xml = "\n".join([
         f'  <category scheme="http://www.blogger.com/atom/ns#" term="{escape_xml(tag)}" />'
@@ -154,6 +159,7 @@ def parse_and_convert(slug):
   <published>{iso_published}</published>
   <updated>{iso_updated}</updated>
   <title type='text'>{escaped_title}</title>
+  <summary type='text'>{escaped_description}</summary>
   <content type='html'>{escaped_body}</content>
   <link rel='replies' type='application/atom+xml' href='https://www.blogger.com/feeds/{BLOGGER_BLOG_ID}/posts/default' title='Post Comments'/>
 {categories_xml}
