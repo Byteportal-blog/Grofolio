@@ -18,3 +18,5 @@
 - [Privacy Policy](https://www.grofolio.tech/privacy/): Data handling, cookies, and privacy compliance.
 - [RSS Feed](https://www.grofolio.tech/feed.xml): Machine-readable RSS 2.0 feed of all articles.
 - [XML Sitemap](https://www.grofolio.tech/sitemap.xml): Full URL directory for web indexers.
+- [Medium Channel](https://medium.com/@grofolio): Grofolio official publications on Medium.
+- [Blogger Channel](https://grofolio.blogspot.com/): Grofolio official blog on Blogger.
