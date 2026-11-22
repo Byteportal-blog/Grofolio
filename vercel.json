@@ -228,6 +228,15 @@
           "value": "noindex, nofollow"
         }
       ]
+    },
+    {
+      "source": "/blogs/(reverse-psychology|product-reinvention|crisis-to-campaign|demonstration|participation|unexpected-publicity)-marketing-strategy/:path*",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
     }
   ]
 }
