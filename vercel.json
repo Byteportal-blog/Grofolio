@@ -74,6 +74,111 @@
       "statusCode": 301
     },
     {
+      "source": "/unexpected-publicity-marketing-strategy",
+      "destination": "/blogs/unexpected-publicity-marketing-strategy/",
+      "statusCode": 301
+    },
+    {
+      "source": "/unexpected-publicity-marketing-strategy/",
+      "destination": "/blogs/unexpected-publicity-marketing-strategy/",
+      "statusCode": 301
+    },
+    {
+      "source": "/unexpected-publicity-marketing-strategy/:path+",
+      "destination": "/blogs/unexpected-publicity-marketing-strategy/:path+",
+      "statusCode": 301
+    },
+    {
+      "source": "/participation-marketing-strategy",
+      "destination": "/blogs/participation-marketing-strategy/",
+      "statusCode": 301
+    },
+    {
+      "source": "/participation-marketing-strategy/",
+      "destination": "/blogs/participation-marketing-strategy/",
+      "statusCode": 301
+    },
+    {
+      "source": "/participation-marketing-strategy/:path+",
+      "destination": "/blogs/participation-marketing-strategy/:path+",
+      "statusCode": 301
+    },
+    {
+      "source": "/demonstration-marketing-strategy",
+      "destination": "/blogs/demonstration-marketing-strategy/",
+      "statusCode": 301
+    },
+    {
+      "source": "/demonstration-marketing-strategy/",
+      "destination": "/blogs/demonstration-marketing-strategy/",
+      "statusCode": 301
+    },
+    {
+      "source": "/demonstration-marketing-strategy/:path+",
+      "destination": "/blogs/demonstration-marketing-strategy/:path+",
+      "statusCode": 301
+    },
+    {
+      "source": "/crisis-to-campaign-marketing-strategy",
+      "destination": "/blogs/crisis-to-campaign-marketing-strategy/",
+      "statusCode": 301
+    },
+    {
+      "source": "/crisis-to-campaign-marketing-strategy/",
+      "destination": "/blogs/crisis-to-campaign-marketing-strategy/",
+      "statusCode": 301
+    },
+    {
+      "source": "/crisis-to-campaign-marketing-strategy/:path+",
+      "destination": "/blogs/crisis-to-campaign-marketing-strategy/:path+",
+      "statusCode": 301
+    },
+    {
+      "source": "/product-reinvention-marketing-strategy",
+      "destination": "/blogs/product-reinvention-marketing-strategy/",
+      "statusCode": 301
+    },
+    {
+      "source": "/product-reinvention-marketing-strategy/",
+      "destination": "/blogs/product-reinvention-marketing-strategy/",
+      "statusCode": 301
+    },
+    {
+      "source": "/product-reinvention-marketing-strategy/:path+",
+      "destination": "/blogs/product-reinvention-marketing-strategy/:path+",
+      "statusCode": 301
+    },
+    {
+      "source": "/reverse-psychology-marketing-strategy",
+      "destination": "/blogs/reverse-psychology-marketing-strategy/",
+      "statusCode": 301
+    },
+    {
+      "source": "/reverse-psychology-marketing-strategy/",
+      "destination": "/blogs/reverse-psychology-marketing-strategy/",
+      "statusCode": 301
+    },
+    {
+      "source": "/reverse-psychology-marketing-strategy/:path+",
+      "destination": "/blogs/reverse-psychology-marketing-strategy/:path+",
+      "statusCode": 301
+    },
+    {
+      "source": "/competitor-hijacking-marketing-strategy",
+      "destination": "/blogs/competitor-hijacking-marketing-strategy/",
+      "statusCode": 301
+    },
+    {
+      "source": "/competitor-hijacking-marketing-strategy/",
+      "destination": "/blogs/competitor-hijacking-marketing-strategy/",
+      "statusCode": 301
+    },
+    {
+      "source": "/competitor-hijacking-marketing-strategy/:path+",
+      "destination": "/blogs/competitor-hijacking-marketing-strategy/:path+",
+      "statusCode": 301
+    },
+    {
       "source": "/posts",
       "destination": "/",
       "statusCode": 301
