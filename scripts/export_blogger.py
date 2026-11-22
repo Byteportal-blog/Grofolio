@@ -128,15 +128,15 @@ def parse_and_convert(slug):
 """
     clean_body = clean_body.strip() + "\n" + attribution
 
-    # 10. Extract published date or fallback
+    # 10. Extract published date or fallback (Scheduled for 06:00 AM IST)
     date_m = re.search(r'<meta property="article:published_time" content="(.*?)">', html)
     if date_m:
         pub_date_str = date_m.group(1).strip()
-        pub_dt = datetime.fromisoformat(pub_date_str).replace(tzinfo=timezone.utc)
+        pub_dt = datetime.fromisoformat(pub_date_str)
     else:
-        pub_dt = datetime.now(timezone.utc)
+        pub_dt = datetime.now()
 
-    iso_published = pub_dt.strftime("%Y-%m-%dT08:00:00.000+00:00")
+    iso_published = pub_dt.strftime("%Y-%m-%dT06:00:00.000+05:30")
     iso_updated = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.000+00:00")
 
     # 11. Escape content for Blogger Atom XML
