@@ -1,5 +1,9 @@
 /* Custom tweaks only. Everything else comes from Tailwind (CDN) + the typography plugin. */
 
+[hidden] {
+  display: none !important;
+}
+
 :root {
   --font-sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
   --font-serif: Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;

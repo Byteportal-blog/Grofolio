@@ -76,7 +76,7 @@
   addEventListener('resize', fit);
 })();
 
-// Homepage feed filter and 06:00 AM scheduler. The input is hidden in the markup and revealed here,
+// Homepage feed filter. The input is hidden in the markup and revealed here,
 // so it never shows up as a dead control when JavaScript is off.
 (function () {
   const search = document.getElementById('post-search');
@@ -84,39 +84,24 @@
   const status = document.getElementById('feed-status');
   if (!search || !feed || !status) return;
 
-  const now = new Date();
   const items = Array.from(feed.querySelectorAll('li'));
-
-  // Automatically filter out upcoming scheduled posts until their release date/time (06:00 AM)
-  items.forEach(function (li) {
-    const timeEl = li.querySelector('time[datetime]');
-    if (timeEl) {
-      const pubDate = new Date(timeEl.getAttribute('datetime'));
-      if (!isNaN(pubDate.getTime()) && pubDate > now) {
-        li.dataset.scheduled = 'true';
-        li.hidden = true;
-      }
-    }
-  });
-
-  const activeItems = items.filter(li => li.dataset.scheduled !== 'true');
   const idleText = status.textContent;
-  status.hidden = activeItems.length > 0;
+  status.hidden = items.length > 0;
   // No point offering a search box on an empty feed.
   const searchBox = document.querySelector('[data-search]');
-  if (searchBox) searchBox.hidden = activeItems.length === 0;
+  if (searchBox) searchBox.hidden = items.length === 0;
 
   search.addEventListener('input', function () {
     const q = search.value.trim().toLowerCase();
     let shown = 0;
 
-    activeItems.forEach(function (li) {
+    items.forEach(function (li) {
       const hit = !q || li.textContent.toLowerCase().includes(q);
       li.hidden = !hit;
       if (hit) shown += 1;
     });
 
-    if (activeItems.length === 0) {
+    if (items.length === 0) {
       status.hidden = false;
       status.textContent = idleText;
     } else if (shown === 0) {

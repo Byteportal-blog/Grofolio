@@ -14,6 +14,66 @@
       "permanent": false
     },
     {
+      "source": "/blogs/reverse-psychology-marketing-strategy/:path*",
+      "destination": "/404/",
+      "permanent": false
+    },
+    {
+      "source": "/blogs/reverse-psychology-marketing-strategy",
+      "destination": "/404/",
+      "permanent": false
+    },
+    {
+      "source": "/blogs/product-reinvention-marketing-strategy/:path*",
+      "destination": "/404/",
+      "permanent": false
+    },
+    {
+      "source": "/blogs/product-reinvention-marketing-strategy",
+      "destination": "/404/",
+      "permanent": false
+    },
+    {
+      "source": "/blogs/crisis-to-campaign-marketing-strategy/:path*",
+      "destination": "/404/",
+      "permanent": false
+    },
+    {
+      "source": "/blogs/crisis-to-campaign-marketing-strategy",
+      "destination": "/404/",
+      "permanent": false
+    },
+    {
+      "source": "/blogs/demonstration-marketing-strategy/:path*",
+      "destination": "/404/",
+      "permanent": false
+    },
+    {
+      "source": "/blogs/demonstration-marketing-strategy",
+      "destination": "/404/",
+      "permanent": false
+    },
+    {
+      "source": "/blogs/participation-marketing-strategy/:path*",
+      "destination": "/404/",
+      "permanent": false
+    },
+    {
+      "source": "/blogs/participation-marketing-strategy",
+      "destination": "/404/",
+      "permanent": false
+    },
+    {
+      "source": "/blogs/unexpected-publicity-marketing-strategy/:path*",
+      "destination": "/404/",
+      "permanent": false
+    },
+    {
+      "source": "/blogs/unexpected-publicity-marketing-strategy",
+      "destination": "/404/",
+      "permanent": false
+    },
+    {
       "source": "/b2b-digital-marketing-strategy",
       "destination": "/blogs/b2b-digital-marketing-strategy/",
       "statusCode": 301
