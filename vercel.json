@@ -14,16 +14,6 @@
       "permanent": false
     },
     {
-      "source": "/blogs/product-reinvention-marketing-strategy/:path*",
-      "destination": "/404/",
-      "permanent": false
-    },
-    {
-      "source": "/blogs/product-reinvention-marketing-strategy",
-      "destination": "/404/",
-      "permanent": false
-    },
-    {
       "source": "/blogs/crisis-to-campaign-marketing-strategy/:path*",
       "destination": "/404/",
       "permanent": false
@@ -280,7 +270,7 @@
       ]
     },
     {
-      "source": "/blogs/(product-reinvention|crisis-to-campaign|demonstration|participation|unexpected-publicity)-marketing-strategy/:path*",
+      "source": "/blogs/(crisis-to-campaign|demonstration|participation|unexpected-publicity)-marketing-strategy/:path*",
       "headers": [
         {
           "key": "X-Robots-Tag",
