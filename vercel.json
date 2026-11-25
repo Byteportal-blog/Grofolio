@@ -14,16 +14,6 @@
       "permanent": false
     },
     {
-      "source": "/blogs/crisis-to-campaign-marketing-strategy/:path*",
-      "destination": "/404/",
-      "permanent": false
-    },
-    {
-      "source": "/blogs/crisis-to-campaign-marketing-strategy",
-      "destination": "/404/",
-      "permanent": false
-    },
-    {
       "source": "/blogs/demonstration-marketing-strategy/:path*",
       "destination": "/404/",
       "permanent": false
@@ -270,7 +260,7 @@
       ]
     },
     {
-      "source": "/blogs/(crisis-to-campaign|demonstration|participation|unexpected-publicity)-marketing-strategy/:path*",
+      "source": "/blogs/(demonstration|participation|unexpected-publicity)-marketing-strategy/:path*",
       "headers": [
         {
           "key": "X-Robots-Tag",
