@@ -74,6 +74,21 @@
       "statusCode": 301
     },
     {
+      "source": "/coca-cola-marketing-plan-objectives-and-strategy",
+      "destination": "/blogs/coca-cola-marketing-plan-objectives-and-strategy/",
+      "statusCode": 301
+    },
+    {
+      "source": "/coca-cola-marketing-plan-objectives-and-strategy/",
+      "destination": "/blogs/coca-cola-marketing-plan-objectives-and-strategy/",
+      "statusCode": 301
+    },
+    {
+      "source": "/coca-cola-marketing-plan-objectives-and-strategy/:path+",
+      "destination": "/blogs/coca-cola-marketing-plan-objectives-and-strategy/:path+",
+      "statusCode": 301
+    },
+    {
       "source": "/google-showing-old-title-after-update",
       "destination": "/blogs/google-showing-old-title-after-update/",
       "statusCode": 301
