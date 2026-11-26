@@ -5,25 +5,6 @@
 -->
 
 <!-- ===================================================================== -->
-<!-- Day 5: 26 Nov 2026, 06:00 AM -->
-<!-- ===================================================================== -->
-<li class="py-6">
-  <article>
-    <a href="./blogs/demonstration-marketing-strategy/" class="group block">
-      <div class="flex flex-wrap items-center gap-2">
-        <time datetime="2026-11-26T06:00:00+05:30" class="font-sans text-sm text-stone-500">26 Nov 2026</time>
-        <span class="text-stone-300 dark:text-stone-700">·</span>
-        <span class="inline-flex items-center rounded-md bg-[#fe7264]/10 px-2 py-0.5 font-sans text-xs font-medium text-[#fe7264]">Demonstration Marketing</span>
-        <span class="inline-flex items-center rounded-md bg-stone-100 px-2 py-0.5 font-sans text-xs font-medium text-stone-600 dark:bg-stone-800 dark:text-stone-300">Product Proof</span>
-        <span class="inline-flex items-center rounded-md bg-stone-100 px-2 py-0.5 font-sans text-xs font-medium text-stone-600 dark:bg-stone-800 dark:text-stone-300">Video Marketing</span>
-      </div>
-      <h2 class="mt-2 text-xl font-semibold text-stone-900 group-hover:text-[#fe7264] group-hover:underline dark:text-white dark:group-hover:text-[#fe7264]">Demonstration Marketing: How to Visibly Prove Value and Convert Buyers Faster</h2>
-      <p class="mt-1 text-stone-600 dark:text-stone-400">Discover how extreme real-world product demonstrations prove undeniable quality and accelerate sales, inspired by Volvo Trucks' Epic Split.</p>
-    </a>
-  </article>
-</li>
-
-<!-- ===================================================================== -->
 <!-- Day 6: 27 Nov 2026, 06:00 AM -->
 <!-- ===================================================================== -->
 <li class="py-6">

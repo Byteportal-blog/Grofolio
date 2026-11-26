@@ -14,16 +14,6 @@
       "permanent": false
     },
     {
-      "source": "/blogs/demonstration-marketing-strategy/:path*",
-      "destination": "/404/",
-      "permanent": false
-    },
-    {
-      "source": "/blogs/demonstration-marketing-strategy",
-      "destination": "/404/",
-      "permanent": false
-    },
-    {
       "source": "/blogs/participation-marketing-strategy/:path*",
       "destination": "/404/",
       "permanent": false
@@ -275,7 +265,7 @@
       ]
     },
     {
-      "source": "/blogs/(demonstration|participation|unexpected-publicity)-marketing-strategy/:path*",
+      "source": "/blogs/(participation|unexpected-publicity)-marketing-strategy/:path*",
       "headers": [
         {
           "key": "X-Robots-Tag",
